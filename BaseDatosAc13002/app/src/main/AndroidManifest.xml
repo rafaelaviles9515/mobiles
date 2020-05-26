@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basedatosac13002">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MateriaConsultarActivity"></activity>
+        <activity android:name=".MateriaActualizarActivity" />
+        <activity android:name=".MateriaEliminarActivity" />
+        <activity android:name=".MateriaInsertarActivity" />
+        <activity android:name=".NotaConsultarActivity" />
+        <activity android:name=".NotaActualizarActivity" />
+        <activity android:name=".NotaEliminarActivity" />
+        <activity android:name=".NotaInsertarActivity" />
+        <activity android:name=".AlumnoConsultarActivity" />
+        <activity android:name=".AlumnoActualizarActivity" />
+        <activity android:name=".AlumnoEliminarActivity" />
+        <activity android:name=".AlumnoInsertarActivity" />
+        <activity android:name=".MateriaMenuActivity" />
+        <activity android:name=".NotaMenuActivity" />
+        <activity android:name=".AlumnoMenuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ac13002Utilidades</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnplay">Play </string>
+    <string name="btnstop">stop </string>
+    <string name="mensajevideo">Haga Click arriba de este mensaje</string>
+    <string name="imagen1">imagen</string>
+    <string name="boton1">tomar foto</string>
+    <string name="txtAltitud">Altitud </string>
+    <string name="txtLatitud">Latitud </string>
+    <string name="txtLongitud">Longitud </string>
+    <string name="txtDireccion">Direccion </string>
+    <string name="btnObtenerDatos">Obtener Datos Posicion </string>
+    <string name="edt_tts">Diga algo</string>
+    <string name="btn_tts1">Escuchar</string>
+    <string name="btn_tts2">Guardar</string>
+    <string name="btnTalk">Hable</string>
+    <string name="textoAcelx">Pos x</string>
+    <string name="textoAcely">Pos y</string>
+    <string name="textoAcelz">Pos z</string>
+    <string name="colorrojo">Valor rojo</string>
+    <string name="colorverde">Valor verde</string>
+    <string name="colorazul">valor azul</string>
+    <string name="mensajegesto">gestos</string>
+    <string name="hello">Aplicación que responde a gestos.</string>
+</resources>

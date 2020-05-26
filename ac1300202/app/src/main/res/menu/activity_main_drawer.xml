@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_button"
+            android:icon="@drawable/ic_menu_button"
+            android:title="Button" />
+        <item
+            android:id="@+id/nav_textview"
+            android:icon="@drawable/ic_menu_textview"
+            android:title="TextView" />
+        <item
+            android:id="@+id/nav_edittext"
+            android:icon="@drawable/ic_menu_edittext"
+            android:title="EditText" />
+        <item
+            android:id="@+id/nav_checkbox"
+            android:icon="@drawable/ic_menu_checkbox"
+            android:title="CheckBox" />
+        <item
+            android:id="@+id/nav_radiobutton"
+            android:icon="@drawable/ic_menu_radiobutton"
+            android:title="RadioButton" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_spinner"
+            android:icon="@drawable/ic_menu_spinner"
+            android:title="Spinner" />
+        <item
+            android:id="@+id/nav_tabwidget"
+            android:icon="@drawable/ic_menu_tabwidget"
+            android:title="TabWidget" />
+    </group>
+</menu>

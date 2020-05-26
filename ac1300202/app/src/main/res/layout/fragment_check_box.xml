@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".CheckBoxFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableRow>
+        <TextView
+            android:text="@string/titulochequeos" />
+    </TableRow>
+    <TableRow>
+    <TextView
+        android:text="@string/opcion1"/>
+    <CheckBox android:id="@+id/checkbox1"
+        android:text="@string/text1"
+        android:onClick="miMetodo1"
+        tools:ignore="OnClick" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/opcion2"/>
+        <CheckBox android:id="@+id/checkbox2"
+            android:text="@string/text2"
+            android:onClick="miMetodo2"
+            tools:ignore="OnClick" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="@string/opcion3"/>
+        <CheckBox android:id="@+id/checkbox3"
+            android:text="@string/text3"
+            android:onClick="miMetodo3"
+            tools:ignore="OnClick" />
+    </TableRow>
+</TableLayout>

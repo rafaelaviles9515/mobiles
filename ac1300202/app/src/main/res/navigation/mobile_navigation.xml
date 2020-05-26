@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="sv.edu.ues.fia.ac1300202.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="sv.edu.ues.fia.ac1300202.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="sv.edu.ues.fia.ac1300202.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_button"
+        android:name="sv.edu.ues.fia.ac1300202.ButtonFragment"
+        tools:layout="@layout/fragment_button" />
+
+    <fragment
+        android:id="@+id/nav_textview"
+        android:name="sv.edu.ues.fia.ac1300202.TextViewFragment"
+        tools:layout="@layout/fragment_text_view" />
+
+    <fragment
+        android:id="@+id/nav_edittext"
+        android:name="sv.edu.ues.fia.ac1300202.EditTextFragment"
+        tools:layout="@layout/fragment_edit_text" />
+
+    <fragment
+        android:id="@+id/nav_checkbox"
+        android:name="sv.edu.ues.fia.ac1300202.CheckBoxFragment"
+        android:label="@string/menu_checkbox"
+        tools:layout="@layout/fragment_check_box" />
+
+    <fragment
+        android:id="@+id/nav_radiobutton"
+        android:name="sv.edu.ues.fia.ac1300202.RadioButtonFragment"
+        tools:layout="@layout/fragment_radio_button" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="sv.edu.ues.fia.ac1300202.GalleryFragment"
+        tools:layout="@layout/fragment_gallery2" />
+
+    <fragment
+        android:id="@+id/nav_spinner"
+        android:name="sv.edu.ues.fia.ac1300202.SpinnerFragment"
+        tools:layout="@layout/fragment_spinner" />
+
+    <fragment
+        android:id="@+id/nav_tabwidget"
+        android:name="sv.edu.ues.fia.ac1300202.TabWidgetFragment"
+        tools:layout="@layout/fragment_tab_widget" />
+</navigation>
