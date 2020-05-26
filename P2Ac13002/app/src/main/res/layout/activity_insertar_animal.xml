@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="1" >
+    <TableRow>
+        <TextView android:text="@string/codigoespecie"/>
+        <EditText
+            android:id="@+id/editCodigoespecie"
+            android:inputType="text"
+            android:maxLength="6" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/codigopais" />
+        <EditText
+            android:id="@+id/editCodigopais"
+            android:inputType="text"
+            android:maxLength="3" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/codigoanimal" />
+        <EditText
+            android:id="@+id/editCodigoanimal"
+            android:inputType="text"
+            android:maxLength="6" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/edadanimal" />
+        <EditText
+            android:id="@+id/editEdadanimal"
+            android:inputType="numberDecimal"
+             />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/estavivo" />
+        <EditText
+            android:id="@+id/editEstavivo"
+            android:inputType="text"
+            android:maxLength="1"
+            />
+    </TableRow>
+    <TableRow>
+        <Button
+            android:onClick="insertarAnimal"
+            android:text="@string/insertar" />
+        <Button
+            android:onClick="limpiarTexto"
+            android:text="@string/limpiar" />
+    </TableRow>
+</TableLayout>

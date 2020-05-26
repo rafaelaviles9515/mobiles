@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">P2Ac13002</string>
+    <string name="codespecie" >Codigo de especie</string>
+    <string name="eliminar" >Eliminar </string>
+    <string name="codigopais" >Codigo de pais </string>
+    <string name="consultar" >Consultar </string>
+    <string name="limpiar" >Limpiar </string>
+    <string name="codigoespecie" >Codigo de especie </string>
+    <string name="codigoanimal" >Codigo animal </string>
+    <string name="edadanimal" >Edad animal </string>
+    <string name="insertar" >Insertar </string>
+    <string name="estavivo" >Esta vivo </string>
+</resources>
